@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Noto+Sans+KR:wght@100;400;700&display=swap');
+/* font-family: 'Days One', sans-serif; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    color: #222;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header  */
+.header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    margin-right: auto;
+    font-family: 'Days One', sans-serif;
+    font-size: 36px;
+    color: #4B4B4B;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li a {
+    display: block;
+    padding: 20px 55px;
+}
+
+.gnb li a:hover {
+    color: orangered;
+    font-weight: bold;
+}
+
+.btn {
+    margin-left: 55px;
+    padding: 9px 22px;
+    border: 1px solid #222;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+/* slide  */
+.slide {
+    
+}
