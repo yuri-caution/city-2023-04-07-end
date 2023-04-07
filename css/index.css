@@ -136,17 +136,18 @@ a {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    gap: 135px;
 }
 
 .section_01 {
     display: flex;
     gap: 30px;
+    margin-top: 135px;
 }
 
 .section_01 .text_box {
     flex: 1;
     height: 500px;
-    background-color: #ddd;
     color: #3a3a3a;
     padding: 63px 30px;
 }
@@ -161,11 +162,35 @@ a {
 }
 
 .section_01 .text_box p {
-    width: 90%;
+    margin-top: 19px;
+    margin-bottom: 42px;
 }
 
 .section_01 .btns {
-
+    display: flex;
+    gap: 19px;
 }
 
+.section_01 .btns button {
+    padding: 15px 45px;
+    border: 1px solid #222;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.section_02 {
+    margin-top: 135px;
+}
+
+.section_02 .sec_header {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.section_02 .sec02_btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
