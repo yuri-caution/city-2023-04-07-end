@@ -72,5 +72,14 @@ a {
 
 /* slide  */
 .slide {
-    
+    width: 1920px;
+    height: 650px;
+}
+
+.item {
+    background-image: url('../images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
