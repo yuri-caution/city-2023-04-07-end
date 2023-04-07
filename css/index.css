@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Noto+Sans+KR:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Noto+Sans+KR:wght@100;400;500;700;900&display=swap');
 /* font-family: 'Days One', sans-serif; */
 /* font-family: 'Noto Sans KR', sans-serif; */
 
@@ -164,6 +164,7 @@ a {
 .section_01 .text_box p {
     margin-top: 19px;
     margin-bottom: 42px;
+    color: #4b4b4b;
 }
 
 .section_01 .btns {
@@ -188,9 +189,83 @@ a {
     margin-bottom: 30px;
 }
 
+.section_02 .titles .title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.section_02 .titles .desc {
+    color: #4b4b4b;
+}
+
 .section_02 .sec02_btn {
     position: absolute;
     bottom: 0;
     right: 0;
+    font-size: 14px;
+    color: #808080;
+    cursor: pointer;
 }
 
+.section_02 .sec02_btn i {
+    margin-left: 5px;
+}
+
+.section_02 .cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.section_03 {
+    margin: 135px 0;
+}
+
+.section_03 .sec_header {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.section_03 .sec_header .title h3 {
+    font-size: 26px;
+}
+
+.section_03 .sec_header .title span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    color: #808080;
+    cursor: pointer;
+}
+
+.section_03 .sec_header .title span i {
+    margin-left: 5px;
+}
+
+.section_03 .cards {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 30px;
+}
+
+/* footer */
+.footer {
+    background-color: #F5F5F5;
+    height: 179px;
+    padding: 52px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #808080;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
